@@ -3,7 +3,7 @@ title = "Rust By Example"
 description = "Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries."
 authors = ["The Rust Community"]
 language = "vi"
-src = "vi"
+src = "vi/src"
 
 [output.html.playpen]
 editable = true
