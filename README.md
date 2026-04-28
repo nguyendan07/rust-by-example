@@ -46,23 +46,27 @@ MDBOOK_BOOK__LANGUAGE=ja mdbook serve
 
 Please see the [CONTRIBUTING.md] file for more details.
 
-[CONTRIBUTING.md]: https://github.com/rust-lang/rust-by-example/blob/master/CONTRIBUTING.md
+[CONTRIBUTING.md]: https://github.com/nguyendan07/rust-by-example/blob/master/CONTRIBUTING.md
 
 ## Translating
 
 Please see the [TRANSLATING.md] file for more details.
 
-[TRANSLATING.md]: https://github.com/rust-lang/rust-by-example/blob/master/TRANSLATING.md
+[TRANSLATING.md]: https://github.com/nguyendan07/rust-by-example/blob/master/TRANSLATING.md
 
 ### Translating guide for each languages
 
 * Japanese/日本語: [TRANSLATING_JA.md]
 
-[TRANSLATING_JA.md]: https://github.com/rust-lang/rust-by-example/blob/master/TRANSLATING_JA.md
+[TRANSLATING_JA.md]: https://github.com/nguyendan07/rust-by-example/blob/master/TRANSLATING_JA.md
 
 * Chinese/中文: [TRANSLATING_ZH.md]
 
-[TRANSLATING_ZH.md]: https://github.com/rust-lang/rust-by-example/blob/master/TRANSLATING_ZH.md
+[TRANSLATING_ZH.md]: https://github.com/nguyendan07/rust-by-example/blob/master/TRANSLATING_ZH.md
+
+* Vietnamese/Việt Nam: [TRANSLATING_VI.md]
+
+[TRANSLATING_VI.md]: https://github.com/nguyendan07/rust-by-example/blob/master/TRANSLATING_VI.md
 
 ## Translations to other languages
 
