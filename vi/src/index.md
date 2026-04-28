@@ -1,65 +1,66 @@
 # Rust by Example
 
-[Rust][rust] is a modern systems programming language focusing on safety, speed,
-and concurrency. It accomplishes these goals by being memory safe without using
-garbage collection.
+[Rust][rust] là một ngôn ngữ lập trình hệ thống hiện đại tập trung vào tính an toàn, tốc độ và tính đồng thời.
+Nó đạt đươc các tiêu chí này bằng cách làm bộ nhớ trở nên an toàn mà không sử dụng đến garbage collection (bộ thu gom rác).
 
-Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust
-concepts and standard libraries. To get even more out of these examples, don't forget
-to [install Rust locally][install] and check out the [official docs][std].
-Additionally for the curious, you can also [check out the source code for this site][home].
+Đây là bản dịch tiếng Việt của Rust by Example (RBE), một tập các ví dụ minh họa cho các khái niệm
+và thư viện tiêu chuẩn của Rust. Để giữ được tính đúng đắn về mặt thuật ngữ, xuyên suốt nội dung
+của toàn bộ bản dịch này, sẽ có nhiều thuật ngữ được giữ nguyên dưới dạng tiếng Anh (có kèm theo diễn giải bằng tiếng Việt).
+Để hiểu thêm về những ví dụ này, đừng quên [cài đặt ngôn ngữ Rust][install] và xem [tài liệu chính thức][std].
+Thêm vào đó, nếu bạn tò mò, bạn cũng có thể [kiểm tra mã nguồn của trang web này][home-vn] hoặc [mã nguồn của bản gốc tiếng Anh][home-en].
 
-Now let's begin!
+Nào, chúng ta cùng bắt đầu!
 
-- [Hello World](hello.md) - Start with a traditional Hello World program.
+- [Hello World](hello.md) - Bắt đầu với chương trình Hello World truyền thống.
 
-- [Primitives](primitives.md) - Learn about signed integers, unsigned integers and other primitives.
+- [Primitives](primitives.md) - Học về số nguyên có dấu, số nguyên không dấu và các kiểu dữ liệu nguyên thủy khác.
 
-- [Custom Types](custom_types.md) - `struct` and `enum`.
+- [Custom Types](custom_types.md) - `struct` và `enum`.
 
-- [Variable Bindings](variable_bindings.md) - mutable bindings, scope, shadowing.
+- [Variable Bindings](variable_bindings.md) - Học về mutable bindings, scope và shadowing.
 
-- [Types](types.md) - Learn about changing and defining types.
+- [Types](types.md) - Học về cách thay đổi và định nghĩa các kiểu dữ liệu.
 
-- [Conversion](conversion.md) - Convert between different types, such as strings, integers, and floats.
+- [Conversion](conversion.md) - Chuyển đổi giữa các kiểu dữ liệu khác nhau, chẳng hạn strings, số nguyên và số thực.
 
-- [Expressions](expression.md) - Learn about Expressions & how to use them.
+- [Expressions](expression.md) - Tìm hiểu về các biểu thức và cách sử dụng chúng.
 
-- [Flow of Control](flow_control.md) - `if`/`else`, `for`, and others.
+- [Flow of Control](flow_control.md) - `if`/`else`, `for`, and các luồng điều khiển khác.
 
-- [Functions](fn.md) - Learn about Methods, Closures and Higher Order Functions.
+- [Functions](fn.md) - Học về Methods, Closures và Higher Order Functions.
 
-- [Modules](mod.md) - Organize code using modules
+- [Modules](mod.md) - Tổ chức mã code của bạn bằng cách sử dụng các modules.
 
-- [Crates](crates.md) - A crate is a compilation unit in Rust. Learn to create a library.
+- [Crates](crates.md) - Một crate là một đơn vị biên dịch trong Rust. Học về cách tạo library (thư viện).
 
-- [Cargo](cargo.md) - Go through some basic features of the official Rust package management tool.
+- [Cargo](cargo.md) - Xem qua một số tính năng cơ bản của Cargo - công cụ quản lý các package Rust chính thức.
 
-- [Attributes](attribute.md) - An attribute is metadata applied to some module, crate or item.
+- [Attributes](attribute.md) - Attribute (Thuộc tính) là metadata (siêu dữ liệu) được áp dụng cho một số module, crate hoặc item.
 
-- [Generics](generics.md) - Learn about writing a function or data type which can work for multiple types of arguments.
+- [Generics](generics.md) - Tìm hiểu về cách viết một hàm hoặc kiểu dữ liệu có khả năng hoạt động với nhiều loại đối số.
 
-- [Scoping rules](scope.md) - Scopes play an important part in ownership, borrowing, and lifetimes.
+- [Scoping rules](scope.md) - Scope (Phạm vi) đóng một phần quan trọng trong cái khái niệm về ownership (quyền sở hữu), borrowing (mượn quyền) và lifetimes (vòng đời).
 
-- [Traits](trait.md) - A trait is a collection of methods defined for an unknown type: `Self`
+- [Traits](trait.md) - Một trait là một tập các methods được xác định cho một kiểu không xác định (unknown type): `Self`
 
-- [Macros](macros.md) - Macros are a way of writing code that writes other code, which is known as metaprogramming.
+- [Macros](macros.md) - Macro là cách viết code để sinh ra code khác — đây được gọi là metaprogramming (siêu lập trình).
 
-- [Error handling](error.md) - Learn Rust way of handling failures.
+- [Error handling](error.md) - Học cách Rust xử lý lỗi.
 
-- [Std library types](std.md) - Learn about some custom types provided by `std` library.
+- [Std library types](std.md) - Học về một vài custom types (kiểu dữ liệu tùy chỉnh) được cung cấp bởi `std` library.
 
-- [Std misc](std_misc.md) - More custom types for file handling, threads.
+- [Std misc](std_misc.md) - Học thêm về một vài kiểu dữ liệu tùy chỉnh cho việc xử lý tệp (file) và luồng (threads).
 
-- [Testing](testing.md) - All sorts of testing in Rust.
+- [Testing](testing.md) - Tất cả các loại thử nghiệm chương trình trong Rust.
 
-- [Unsafe Operations](unsafe.md) - Learn about entering a block of unsafe operations.
+- [Unsafe Operations](unsafe.md) - Tìm hiểu cách sử dụng khối unsafe để thực hiện các thao tác không an toàn
 
-- [Compatibility](compatibility.md) - Handling Rust's evolution and potential compatibility issues.
+- [Compatibility](compatibility.md) - Cách ứng phó với sự thay đổi của Rust và các vấn đề tương thích có thể xảy ra
 
-- [Meta](meta.md) - Documentation, Benchmarking.
+- [Meta](meta.md) - Documentation (Tài liệu) và Benchmarking (Đo điểm chuẩn).
 
 [rust]: https://www.rust-lang.org/
 [install]: https://www.rust-lang.org/tools/install
 [std]: https://doc.rust-lang.org/std/
-[home]: https://github.com/rust-lang/rust-by-example
+[home-en]: https://github.com/rust-lang/rust-by-example
+[home-vn]: https://github.com/nguyendan07/rust-by-example
