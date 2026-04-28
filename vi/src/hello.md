@@ -1,45 +1,44 @@
 # Hello World
 
-This is the source code of the traditional Hello World program.
+Đây là mã nguồn của chương trình Hello World truyền thống.
 
 ```rust,editable
-// This is a comment, and is ignored by the compiler.
-// You can test this code by clicking the "Run" button over there ->
-// or if you prefer to use your keyboard, you can use the "Ctrl + Enter"
-// shortcut.
+// Đây là một comment, nó sẽ được bỏ qua bởi trình biên dịch.
+// Bạn có thể test mã code này bằng việc click vào nút "Run" ở trên ->
+// hoặc nếu bạn thích sử dụng bàn phím, hãy nhấn tổ hợp "Ctrl + Enter".
 
-// This code is editable, feel free to hack it!
-// You can always return to the original code by clicking the "Reset" button ->
+// Mã code này là có thể sửa, hãy thử chỉnh sửa nó!
+// Sau đó bạn luôn có thể trở lại mã code ban đầu bằng việc click vào nút "Reset" ->
 
-// This is the main function.
+// Đây là main function của chương trình.
 fn main() {
-    // Statements here are executed when the compiled binary is called.
+    // Các câu lệnh ở đây được thực thi khi compiled binary (mã nhị phân đã biên dịch) được gọi.
 
-    // Print text to the console.
+    // In văn bản ra console.
     println!("Hello World!");
 }
 ```
 
-`println!` is a [*macro*][macros] that prints text to the
-console.
+`println!` là một [_macro_][macros], thứ có thể in văn bản ra
+console cho bạn.
 
-A binary can be generated using the Rust compiler: `rustc`.
+Một binary có thể được tạo ra bằng cách sử dụng trình biên dịch của Rust: `rustc`.
 
 ```bash
 $ rustc hello.rs
 ```
 
-`rustc` will produce a `hello` binary that can be executed.
+`rustc` sẽ tạo ra một `hello` binary có thể thực thi.
 
 ```bash
 $ ./hello
 Hello World!
 ```
 
-### Activity
+### Thực hành
 
-Click 'Run' above to see the expected output. Next, add a new
-line with a second `println!` macro so that the output shows:
+Nhấn 'Run' và xem kết quả. Tiếp theo, hãy thử thêm một dòng với
+`println!` macro thứ hai để có được output như sau:
 
 ```text
 Hello World!
